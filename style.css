@@ -1,4 +1,4 @@
-body, nav, main {
+body, nav, main, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -22,6 +22,7 @@ body, nav, main {
 .menu ul li {
     display: inline-block;
     margin: 0 20px;
+    color: white;
 
 }
 
@@ -38,6 +39,25 @@ font-weight: bold;
     background-color: #edeaea;
 }
 
+.conteudo_principal {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo_principal h1 {
+    font-size: 25px;
+    color: #5453d8;
+    margin-bottom: 20px;
+
+}
+
+.conteudo_principal h2 {
+    font-size: 20px;
+    color: #938DF8;
+    margin-bottom: 20px;
+}
 #sobre {
     padding: 50px;
     text-align: center;
@@ -46,7 +66,8 @@ font-weight: bold;
 
 .minha-imagem {
     width: 200px;
-    border-radius: 10px;
+    border-radius: 100px;
+
 }
 .título {
     color: #938DF8;
@@ -64,46 +85,42 @@ font-weight: bold;
     max-width: 500px;
     text-align: center;
 }
-.segundo-paragrafo {
-    font-size: 16px;
-    line-height: 22.4px;
-    text-align: center;
+
+#profissional {
+    background-color:#EDEAEA;
+    padding: 30px 80px;
 }
 
-.primeiro-paragrafo {
-    color: rgb(0, 38, 255);
-    text-align: center;
+#profissional h1 {
+    color: #49BFB3;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
-#segundo-paragrafo {
+.conteudo_profissional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inf_profissional {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.inf_profissional h2 {
     font-size: 20px;
-    text-align: center;
+    margin-bottom: 10px;
 }
-
-#terceiro-paragrafo {
+.inf_profissional h3 {
     font-size: 20px;
-    text-align: center;
+    margin-bottom: 10px;
 }
-
-#quarto-paragrafo {
+.inf_profissional h4 {
     font-size: 20px;
-    text-align: center;
+    margin-bottom: 10px;
 }
-
-#quinto-paragrafo {
-    font-size: 20px;
-    text-align: center;
-}
-
-#sexto-paragrafo {
-    font-size: 20px;
-    text-align: center;
-}
-#setimo-paragrafo {
-    font-size: 20px;
-    text-align: center;
-}
-
 #formacao {
     background-color: #fff;
     padding: 30px 80px;
@@ -123,8 +140,7 @@ font-weight: bold;
 .info_formacao {
     width: 100%;
     max-width: 600px;
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 #rodape {
@@ -135,6 +151,7 @@ font-weight: bold;
 
 .rodape_item span a {
     color: white;
+    text-decoration: none;
 }
 
 .rodape_item {
