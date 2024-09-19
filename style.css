@@ -8,7 +8,7 @@ body, nav, main, h1, h2, h3, h4 {
 }
 
 .menu {
-    background-color: #938DF8;
+    background-color: #e41293;
     padding: 30px 0;
     text-align: end; /*coloca os itens no final da página */
 }
@@ -48,15 +48,15 @@ font-weight: bold;
 
 .conteudo_principal h1 {
     font-size: 25px;
-    color: #5453d8;
-    margin-bottom: 20px;
+    color: #8f0d63;
+    margin-bottom: 10px;
 
 }
 
 .conteudo_principal h2 {
     font-size: 20px;
-    color: #938DF8;
-    margin-bottom: 20px;
+    color: #a83d88;
+    margin-bottom: 25px;
 }
 #sobre {
     padding: 50px;
@@ -84,6 +84,7 @@ font-weight: bold;
     line-height: 22.4px;
     max-width: 500px;
     text-align: center;
+    color: #a83d88;
 }
 
 #profissional {
@@ -92,9 +93,9 @@ font-weight: bold;
 }
 
 #profissional h1 {
-    color: #49BFB3;
+    color: #94077c;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .conteudo_profissional {
@@ -120,6 +121,7 @@ font-weight: bold;
 .inf_profissional h4 {
     font-size: 20px;
     margin-bottom: 10px;
+
 }
 #formacao {
     background-color: #fff;
@@ -127,8 +129,8 @@ font-weight: bold;
 }
 
 .titulo_formacao {
-    color: #49BFB3;
-    font-size: 30px;
+    color: #94077c;
+    font-size: 25px;
 }
 
 .conteudo_formacao {
@@ -144,7 +146,7 @@ font-weight: bold;
 }
 
 #rodape {
-    background-color: #5453d8;
+    background-color: #e41293;
     padding: 30px;
     color: white;
 }
